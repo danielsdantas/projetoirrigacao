@@ -9,7 +9,6 @@ utilizando o contexto de Internet das Coisas (iOT).
 Foi criado este repositório contendo a documentação em formato de Artigo, onde possui a descrição de todo o processo de 
 criação, descrição dos componentes e as interfaces utilizadas.
 
-Aqui neste repositório também possui a programação do projeto em formato .ino e .txt.
+Aqui neste repositório também possui a programação do projeto em formato .ino e .txt, que foi programado e desenvolvido no Software Arduino UNO, uma IDE que reconhece os componentes relacionados à automação e te permite configurá-los, programá-los e defini-los.
 
-O vídeo desta solução foi publicado no Youtube e está disponível em:
-https://youtu.be/U4V5LHhNAE4
+Para esta automação, foram utilizados componentes de conexão com a internet, com a Placa NodeMCU ESP8266 que faz conexão com o CloudMQTT, onde são estabelecidas as configurações do Broker. Além desse componente, foram utilizados LEDs para constatação da situação do solo, um módulo relé, uma bomba de irrigação e jumpers para alimentar a energia de cada um deles. Para maiores detalhes, a documentação está disponível neste repositório e o vídeo desta solução foi publicado no Youtube e está disponível em: https://youtu.be/U4V5LHhNAE4
